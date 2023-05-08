@@ -1,0 +1,7 @@
+Hi! My name is Rania
+
+I recently graduated from McGill University with a Bachelor of Computer Engineering where I worked on several projects using Java, Javascript, C or Python.
+
+Regarding my previous working experience, I had an internship as a fullstack developer where we used  technologies such as React, Java Spring and Postgres.
+
+Some of my hobbies include playing piano, playing tennis and travelling
