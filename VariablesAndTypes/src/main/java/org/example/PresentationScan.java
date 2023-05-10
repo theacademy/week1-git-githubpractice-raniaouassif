@@ -16,6 +16,7 @@ public class PresentationScan {
         yourLastName = scan.nextLine();
         System.out.println("Please enter your age");
         yourAge = scan.nextInt();
+
         //Block 3: Results
         yourFullName = yourFirstName + " " + yourLastName;
 
