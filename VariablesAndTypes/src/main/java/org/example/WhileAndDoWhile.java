@@ -12,7 +12,7 @@ public class WhileAndDoWhile {
         }
 
         // Do-while loop
-        do  { // Will be executed once 
+        do  { // Will be executed once
             System.out.println("y= " + y);
             y++;
         } while(y>10);
