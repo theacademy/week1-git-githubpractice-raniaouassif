@@ -6,9 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="StateCapitals2" />
-        <module name="DataMarshalingUnmarshaling" />
-        <module name="StateCapitals1" />
+        <module name="ClassRoster" />
       </profile>
     </annotationProcessing>
   </component>

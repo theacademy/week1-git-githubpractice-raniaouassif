@@ -1,11 +1,11 @@
-package com.sg.classroster.dao;
+package org.example;
 
-import com.sg.classroster.dto.Student;
+import org.example.Student;
 
 import java.io.*;
 import java.util.*;
 
-public class ClassRosterDaoFileImpl implements classRosterDao {
+public class FileImpl  {
     private Map<String, Student> students = new HashMap<>();
     public static final String ROSTER_FILE = "roster.txt";
     public static final String DELIMITER = "::";
