@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ClassRoster" />
+        <module name="StatlessUnitTesting" />
         <module name="UserIO" />
+        <module name="ClassRoster" />
+        <module name="StateCapitals1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

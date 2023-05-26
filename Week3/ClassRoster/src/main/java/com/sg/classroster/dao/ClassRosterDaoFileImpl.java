@@ -15,14 +15,11 @@ public class ClassRosterDaoFileImpl implements classRosterDao {
 //        return prevStudent;
 //    }
 
-    @Override
-    public Student addStudent(String studentId, Student student)
-            throws ClassRosterDaoException {
-        loadRoster();
-        Student newStudent = students.put(studentId, student);
-        writeRoster();
-        return newStudent;
-    }
+//    @Override
+//    public Student addStudent(String studentId, Student student)
+//            throws ClassRosterDaoException {
+//
+//    }
 
 //    @Override
 //    public List<Student> getAllStudents() {
@@ -110,7 +107,7 @@ public class ClassRosterDaoFileImpl implements classRosterDao {
             // Create Scanner for reading the file
             scanner = new Scanner(
                     new BufferedReader(
-                            new FileReader("roster.txt")));
+                            new FileReader(ROSTER_FILE)));
         } catch (FileNotFoundException e) {
             throw new ClassRosterDaoException(
                     "-_- Could not load roster data into memory.", e);
