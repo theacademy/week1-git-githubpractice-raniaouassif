@@ -15,11 +15,14 @@ public class ClassRosterDaoFileImpl implements classRosterDao {
 //        return prevStudent;
 //    }
 
-//    @Override
-//    public Student addStudent(String studentId, Student student)
-//            throws ClassRosterDaoException {
-//
-//    }
+    @Override
+    public Student addStudent(String studentId, Student student)
+            throws ClassRosterDaoException {
+        loadRoster();
+        Student newStudent = students.put(studentId, student);
+        writeRoster();
+        return newStudent;
+    }
 
 //    @Override
 //    public List<Student> getAllStudents() {
