@@ -1,0 +1,32 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Test List</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<!--th:if can take in boolean variables and evaluate them, only displaying the tag if the variable is true.-->
+<!--th:if can also check another variable and create its own boolean statement to evaluate, displaying the tag only if the statement is true.-->
+<p th:if="${truth}">Truth is true</p>
+<p th:if="${!truth}">Truth is NOT true</p>
+
+<p th:if="${theNumber == 33}">The number is 33</p>
+<p th:if="${theNumber != 33}">The number is NOT 33</p>
+
+<div th:switch="${aString}"> <!--th:switch attribute that holds what we are switching on.-->
+    <p th:case="differentCase">A different case: <span th:text="${aString}"></span></p>  <!--    th:case attributes in tags. Only the case that matches will be displayed.-->
+    <p th:case="*">The default case: <span th:text="${aString}"></span></p> <!-- * as the case will act as the default; if no other cases match, it will match that one.-->
+</div>
+
+
+<form action="testConditionalForm" method="POST">
+    New Boolean: <input type="text" name="formBool"/> <br/>
+    New String: <input type="text" name="formAString"/><br/>
+    New Number: <input type="number" name="formTheNumber"/><br/>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
