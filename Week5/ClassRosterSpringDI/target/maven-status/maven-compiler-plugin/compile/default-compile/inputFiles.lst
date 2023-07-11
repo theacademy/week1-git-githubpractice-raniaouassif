@@ -1,0 +1,15 @@
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/ui/UserIO.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dao/ClassRosterAuditDao.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dao/ClassRosterAuditDaoFileImpl.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/controller/ClassRosterController.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dto/Student.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/ui/UserIOConsoleImpl.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/App.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dao/classRosterDao.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/service/ClassRosterServiceLayerImpl.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/ui/ClassRosterView.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/service/ClassRosterDataValidationException.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dao/ClassRosterDaoFileImpl.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/dao/ClassRosterPersistenceException.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/service/ClassRosterServiceLayer.java
+/Users/raniaouassif/Desktop/Wiley-WIT/week1-git-githubpractice-raniaouassif/Week5/ClassRosterSpringDI/src/main/java/com/sg/classroster/service/ClassRosterDuplicateIdException.java

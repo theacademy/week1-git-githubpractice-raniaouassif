@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.classroster.service.ClassRosterServiceLayerImplTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.611 sec <<< FAILURE! - in com.sg.classroster.service.ClassRosterServiceLayerImplTest
+testCreateDuplicateIdStudent  Time elapsed: 0.007 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
+testGetStudent  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
+testGetAllStudents  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
+testCreateStudentInvalidData  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
+testRemoveStudent  Time elapsed: 0 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
+testCreateValidStudent  Time elapsed: 0.001 sec  <<< ERROR!
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [com.sg.classroster.dao.ClassRosterDaoStubImpl] for bean with name 'classRosterDaoStub' defined in class path resource [applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+Caused by: java.lang.ClassNotFoundException: com.sg.classroster.dao.ClassRosterDaoStubImpl
+	at com.sg.classroster.service.ClassRosterServiceLayerImplTest.<init>(ClassRosterServiceLayerImplTest.java:32)
+
